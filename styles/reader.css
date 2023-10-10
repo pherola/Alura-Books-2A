@@ -2,9 +2,9 @@
 width: 24px;
 height: 24px;
 background-image: url ("../img/Menu.svg");
-display: inline-block;
-background-repeat: no-repeat;
+background-repeat: no repeat;
 background-position: center;
+display: inline block;
 }
 
 .cabecalho {
@@ -35,13 +35,15 @@ width: 60vw;
 display:block;
 }
 
-.lista-menu-titulo, .lista-menu-titulo-item {
+.lista-menu-titulo,
+ .lista-menu-titulo-item {
     padding: 1em;
     background-color: var(--branco);
 }
 
 .lista-menu-titulo {
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu-link {
@@ -49,4 +51,5 @@ background: var(--azul-degrade);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 background-clip: text;
+text-transform: uppercase
 }
